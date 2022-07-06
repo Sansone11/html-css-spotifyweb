@@ -1,0 +1,40 @@
+/* regole di reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: solid 1px black;
+}
+
+.container__body{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.nav__bar{
+    height:calc(100%)-150px;
+    width: 200px;
+    background-color: bisque;
+}
+
+.content{
+    min-height: 800px;
+    flex-grow: 1;
+    background-color: darkblue;
+
+}
+
+.tool__bar{
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+}
