@@ -24,13 +24,20 @@
     height:calc(100%)-150px;
     width: 200px;
     background-color: bisque;
+    display: flex;
+    flex-direction: column;
 }
 
 .content{
     height: 100%;
     flex-grow: 1;
     background-color: darkblue;
+    display: flex;
+    flex-direction: column;
 
+}
+.row{
+    min-height: 200px;
 }
 
 .tool__bar{
