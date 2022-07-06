@@ -115,3 +115,30 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+
+/* card */
+.card__container{
+    display: flex;
+    flex-direction: row;
+    min-height: 70px;
+    gap: 0.5rem;
+    padding: 1rem;
+    
+}
+
+.card{
+    flex-basis: 0;
+    flex-grow: 1;
+    min-height: 50px;
+   
+}
+
+.second{
+    max-width: 16%;
+}
+
+.round{
+    max-width: 16%;
+    height:16%;
+    border-radius: 50%;
+}
