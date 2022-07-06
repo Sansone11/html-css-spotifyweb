@@ -26,6 +26,7 @@
     background-color: bisque;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 .content{
@@ -37,7 +38,7 @@
 
 }
 .row{
-    min-height: 200px;
+    
 }
 
 .tool__bar{
@@ -47,6 +48,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
 }
 
 /* toolbar */
