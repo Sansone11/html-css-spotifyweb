@@ -83,3 +83,32 @@
     width: 80px;
     background-color: red;
 }
+
+/* contenuti */
+.one{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.option__list{
+    display:flex;
+    flex-direction: row;
+    text-decoration:none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.option__list li{
+    display: inline-block;
+    margin-right: 1rem;
+    
+    
+}
+
+.light__bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
