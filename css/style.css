@@ -27,14 +27,46 @@
 }
 
 .content{
-    min-height: 800px;
+    min-height: 400px;
     flex-grow: 1;
     background-color: darkblue;
 
 }
 
 .tool__bar{
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* toolbar */
+
+.sinister{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.half{
+    flex-basis: 70%;
+    height: 100%;
+}
+
+.quarter{
+    flex-basis: 30%;
+    height: 100%;
+}
+
+.player{
+    height: 100%;
+    width: 35%;
+}
+
+.set{
+    height: 100%;
+    width: 250px; 
 }
