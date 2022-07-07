@@ -3,7 +3,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1px black;
+    /* border: solid 1px black; */
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 :root{
@@ -49,12 +54,13 @@
 
 .menù__playlist{
     flex-grow: 1;
+    
 }
 
 .content{
     height: 100%;
     flex-grow: 1;
-    /* background-color: var(--content-bg-color); */
+    background-color: var(--content-bg-color);
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -124,12 +130,15 @@ a{
     text-decoration:none;
     justify-content: center;
     align-items: center;
-    
+    color: darkgrey;
+
 }
 
 .option__list li{
     display: inline-block;
     margin-right: 1rem;
+    font-size: 0.6rem;
+    font-weight: bold;
     
     
 }
@@ -157,24 +166,19 @@ a{
 .card__container{
     display: flex;
     flex-direction: row;
-    /* min-height: 70px; */
-    padding-top: 0;
+    padding:1rem;
+    gap: 1rem;
     column-gap: 1,5rem;
+    min-height:300px;
 }
 
 .card{
- /* max-width: 12vw; */
-    height:200px;
-    /* display: flex;
-    flex-direction:column ;  */
  flex-basis: calc(100%/5); 
- flex-shrink: none; 
+ display: flex;
+ flex-direction: column;
 }
 
-.row{
-    max-height: 500px;
-    
-}
+
 
 .metal{
     background-image: url(../img/metal_lifting.jpg);
@@ -186,21 +190,21 @@ a{
 
 .stranger{
     background-image: url(../img/stranger.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .quiet{
     background-image: url(../img/aquietplace.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .split{
     background-image: url(../img/split.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -208,7 +212,7 @@ a{
 
 .cure{
     background-image: url(../img/cure.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -216,7 +220,7 @@ a{
 
 .sini{
     background-image: url(../img/sinister.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -224,7 +228,7 @@ a{
 
 .release{
     background-image: url(../img/radar.jpeg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -238,10 +242,24 @@ a{
 
 }
 
+.robot{
+    background-image: url(../img/youg.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
 .img{
-     min-height: 200px;
-    /* min-width: 12vw;  */
+     flex-basis:70%;
 } 
+
+.text{
+    flex-basis: 30%;
+    text-align: center;
+}
     
 
 h2,p{
@@ -253,8 +271,31 @@ h2,p{
 }
 
 .round{
-    max-width: 16%;
-    height:16%;
-    border-radius: 50%;
+    background-image: url(../img/einaudi.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:50%;
+}
+
+.card h3{
+    color: white;
+    font-size: 0.8rem;
+    font-style: bold;
+    width:100%;
+}
+
+.card p{
+    color: darkgray;
+    font-size: 0.6rem;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: darkgrey;
+    font-size:0.6rem ;
 }
 
