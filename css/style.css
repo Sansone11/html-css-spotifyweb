@@ -114,6 +114,9 @@ html{
     .menù__home{
         flex-grow: 1;
     }
+    .menù__home a{
+        display: none;
+    }
     .name{
         display: none;
     }
